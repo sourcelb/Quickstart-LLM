@@ -1,3 +1,5 @@
+import os
+os.system("pip install transformers pytorch numpy nltk tiktoken")
 from transformers import BertForMaskedLM, Trainer, TrainingArguments
 from tensorflow.keras.layers import MultiHeadAttention, LayerNormalization, Dense
 from pyensign.ensign import Ensign
